@@ -1,0 +1,91 @@
+/* siteHeader 开始 */
+.siteHeader{
+  padding:0.08rem 0.32rem;
+}
+.siteHeader>h1{
+  font-size:0.68rem;
+  /* h1的默认字体大小为当前字体大小的两倍 */
+}
+/* siteHeader 结束 */
+
+
+/* 日历开始 */
+.calendar{
+  background-color: #fff;
+  margin:0.32rem;
+  border-radius: 0.48rem;
+  color:#333;
+  /* margin-top: 32px; */
+}
+.calender-header{
+  text-align: center;
+  padding: 0.2rem 0;
+  font-size: 0.36rem;
+}
+.calender-header>time{}
+.calender-weekdays{
+  display: flex;
+}
+.calender-weekdays>li{
+  width: 14.2857%;
+  text-align: center;
+  height: 0.084rem;
+  /* border:1px solid red; */
+  line-height:  0.084rem;
+}
+.calender-days{
+  display: flex;
+  flex-wrap: wrap;
+}
+.calender-days >li {
+  border:1px solid transparent;
+  width: 14.2857%;
+  text-align: center;
+  height:  0.84rem;
+  /* border:1px solid red; */
+  line-height:  0.84rem;
+}
+.calender-days >li.calender-days-selected{
+  border:1px solid #fed32c
+}
+
+.calender-days-today{
+  background-color: #fed32c;
+  border-radius: 0.16rem;
+}
+.calender-actions{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.32rem;
+}
+.calender-actions button{
+  font-size: 0.24rem;
+  height: 0.48rem;
+  padding: 0 0.16rem;
+}
+.calender-actions-left{
+  /* margin-left: 32px; */
+}
+.calender-actions-left>button:hover{
+  cursor: pointer;
+}
+.calender-actions-right{
+  display: flex;
+}
+
+.calender-actions-right>button:hover{
+  cursor: pointer;
+}
+/* 日历结束 */
+.bg{
+  margin-top:1.1rem;
+  display: flex;
+}
+.bg>img{
+  width: 50%;
+ /* margin-left: 174px; */
+
+}
+.beforeLi{
+  color: #999;
+}
